@@ -22,7 +22,11 @@ The first method you will define is called `game_hash`. This method contains and
   * `:players`
 * The `:team_name` key points to a string of the team name.
 * The `:colors` key points to an array of strings that are that team's colors.
-* The `:players` key points to a hash of players whose names (as strings) are the keys to a hash containing their stats. The values for each player's names and their stats can be found in the table below. The stats keys should be formatted like this:
+* The `:players` key points to a hash of players whose names (as strings) are the keys to a hash containing their stats. The values for each player's names and their stats can be found in the table below. The stats keys
+
+
+Use the following data to populate your `game_hash` as outlined above. Remember to run `learn` to see what the tests expect.
+ should be formatted like this:
     * `:number`
     * `:shoe`
     * `:points`
@@ -31,10 +35,6 @@ The first method you will define is called `game_hash`. This method contains and
     * `:steals`
     * `:blocks`
     * `:slam_dunks`
-
-
-
-Use the following data to populate your `game_hash` as outlined above. Remember to run `learn` to see what the tests expect.
 
 Home Team:
 
